@@ -11,7 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
@@ -26,6 +26,7 @@
   },
   "jest": {
     "verbose": true,
+
     "transform": {
       "^.+\\.jsx$": "babel-jest",
       "^.+\\.js$": "babel-jest"
@@ -36,5 +37,7 @@
       "^.+\\.(css|less|svg)$": "<rootDir>/config/CSSStub.js"
     },
     "transformIgnorePatterns": ["node_modules/(?!iggy-common)"]
-  }
+  },
+
+  "scriptPreprocessor": "../shared/preprocessor.js"
 }
