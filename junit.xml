@@ -1,10 +1,22 @@
 <testsuites name="jest tests">
-  <testsuite name="\src\test\sum.test.js" tests="1" errors="0" failures="0" skipped="0" timestamp="2017-10-26T10:20:34" time="1.391">
-    <testcase classname="addition › positive numbers-adds 1 + 2 to equal 3" name="addition › positive numbers-adds 1 + 2 to equal 3" time="0.001">
+  <testsuite name="\src\test\sum.test.js" tests="1" errors="0" failures="1" skipped="0" timestamp="2017-10-26T12:14:53" time="0.369">
+    <testcase classname="addition test › positive numbers-adds 1 + 2 to equal 3" name="addition test › positive numbers-adds 1 + 2 to equal 3" time="0.008">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  4
+Received:
+  3
+    at Object.&lt;anonymous&gt; (C:\Users\zeina\Desktop\et3arraf\jest\jest-repo-master\src\test\sum.test.js:10:25)
+    at Object.asyncFn (C:\Users\zeina\Desktop\et3arraf\jest\jest-repo-master\node_modules\jest-config\node_modules\jest-jasmine2\build\jasmine_async.js:68:30)
+    at e (C:\Users\zeina\Desktop\et3arraf\jest\jest-repo-master\node_modules\jest-config\node_modules\jest-jasmine2\build\queue_runner.js:47:12)
+    at mapper (C:\Users\zeina\Desktop\et3arraf\jest\jest-repo-master\node_modules\jest-config\node_modules\jest-jasmine2\build\queue_runner.js:34:19)
+    at promise.then (C:\Users\zeina\Desktop\et3arraf\jest\jest-repo-master\node_modules\jest-config\node_modules\jest-jasmine2\build\queue_runner.js:75:39)
+    at process._tickCallback (internal/process/next_tick.js:109:7)</failure>
     </testcase>
   </testsuite>
-  <testsuite name="\src\App.test.js" tests="1" errors="0" failures="0" skipped="0" timestamp="2017-10-26T10:20:35" time="0.451">
-    <testcase classname="-renders without crashing" name="-renders without crashing" time="0.024">
+  <testsuite name="\src\App.test.js" tests="1" errors="0" failures="0" skipped="0" timestamp="2017-10-26T12:14:53" time="0.431">
+    <testcase classname="-renders without crashing" name="-renders without crashing" time="0.037">
     </testcase>
   </testsuite>
 </testsuites>
