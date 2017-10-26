@@ -1,0 +1,10 @@
+<testsuites name="jest tests">
+  <testsuite name="\src\test\sum.test.js" tests="1" errors="0" failures="0" skipped="0" timestamp="2017-10-26T10:20:34" time="1.391">
+    <testcase classname="addition › positive numbers-adds 1 + 2 to equal 3" name="addition › positive numbers-adds 1 + 2 to equal 3" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\App.test.js" tests="1" errors="0" failures="0" skipped="0" timestamp="2017-10-26T10:20:35" time="0.451">
+    <testcase classname="-renders without crashing" name="-renders without crashing" time="0.024">
+    </testcase>
+  </testsuite>
+</testsuites>
