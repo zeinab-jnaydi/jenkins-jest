@@ -1,6 +1,10 @@
 <testsuites name="jest tests">
-  <testsuite name="\src\App.test.js" tests="1" errors="0" failures="0" skipped="0" timestamp="2017-11-01T14:19:15" time="1.774">
-    <testcase classname="-renders without crashing" name="-renders without crashing" time="0.025">
+  <testsuite name="\src\App.test.js" tests="1" errors="0" failures="0" skipped="0" timestamp="2017-11-01T14:32:42" time="1.753">
+    <testcase classname="-renders without crashing" name="-renders without crashing" time="0.023">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\__tests__\sum.test.js" tests="1" errors="0" failures="0" skipped="0" timestamp="2017-11-01T14:32:44" time="0.168">
+    <testcase classname="addition test › positive numbers-adds 1 + 2 to equal 3" name="addition test › positive numbers-adds 1 + 2 to equal 3" time="0.003">
     </testcase>
   </testsuite>
 </testsuites>
