@@ -45,7 +45,7 @@
     "moduleNameMapper": {
       "^.+\\.(css|less|svg)$": "<rootDir>/config/CSSStub.js"
     },
-    "transformIgnorePatterns": ["node_modules/(?!iggy-common)"],
+
     "testResultsProcessor": "jest-junit"
   },
   "scriptPreprocessor": "../shared/preprocessor.js"
