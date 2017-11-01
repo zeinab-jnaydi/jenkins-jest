@@ -38,6 +38,7 @@
       "^.+\\.jsx$": "babel-jest",
       "^.+\\.js$": "babel-jest"
     },
+    "testRegex": "__tests__/.*.js$",
 
     "moduleFileExtensions": ["js", "jsx"],
     "moduleDirectories": ["node_modules"],
